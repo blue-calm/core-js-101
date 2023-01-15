@@ -116,6 +116,7 @@ function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
   // const p2 = { x: x2, y: y2 };
   // return Math.atan2(p2.y - p1.y, p2.x - p1.x);
   // return Math.atan2(y2 - y1, x2 - x1);
+  // return Math.sqrt(((x2 - x1) ** 2) + ((y2 - y1) ** 2));
   throw new Error('Not implemented');
 }
 
